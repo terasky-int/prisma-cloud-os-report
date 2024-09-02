@@ -5,13 +5,13 @@
 # Invoke-RestMethod https://raw.githubusercontent.com/witchcraze/EOL-DataSet/master/OS/OS_Ubuntu.json -OutFile OS_Ubuntu.json
 
 # Prisma Cloud console URI
-$console        = "https://europe-west3.cloud.twistlock.com/eu-158061"
-$collections    = "prisma-demo" # Comma-separated Collections to search
+$console        = ""
+$collections    = "" # Comma-separated Collections to search
 
 # Service Account credentials (Read Oinly)
 $Body = @{
-    username    = "807fa4b4-68db-4e4f-b5ef-5262a36cef29"
-    password    = "ZbZlG1qzYIViPIVWmF0NRXa67mA="
+    username    = ""
+    password    = ""
 }
 
 # Timestamp for a filename
