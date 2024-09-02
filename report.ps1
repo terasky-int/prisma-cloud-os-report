@@ -69,7 +69,7 @@ $reply              = Invoke-RestMethod @Parameters
 foreach ($a in $reply) {
     if (Get-EOL -version $a.osDistroVersion -osDistro $a.osDistro) {
       $row = [PSCustomObject]@{
-        ID = $a.id
+        ID              = $a.id
         registry        = $a.repoTag.registry
         repository      = $a.repoTag.repo
         tag             = $a.repoTag.tag
